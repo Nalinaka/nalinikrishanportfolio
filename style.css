@@ -154,7 +154,6 @@ nav {
 .about-me__info {
     display: flex;
     flex-direction: column;
-
 }
 
 
@@ -214,6 +213,9 @@ nav {
     flex: 1; 
     display: flex;
     align-items: center;
+    width: 50%;
+    margin-top: 240px;
+    margin-bottom: 108px;
 }
 
 @keyframes fade-up {
@@ -329,6 +331,7 @@ language:hover .language_name {
     overflow: hidden; 
     display: flex;
     position: relative; 
+    margin-top: 100px;
 }
 
 .project__wrapper:before {
